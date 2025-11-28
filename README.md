@@ -265,3 +265,4 @@ class MSFAAF(nn.Module):
         out = self.expand(levels_features_ersa)
         return out
 ```
+**Additional implementation details, along with the model inference code and trained weights, will be released upon acceptance of the paper.**
