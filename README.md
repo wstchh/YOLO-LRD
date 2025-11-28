@@ -1,2 +1,2 @@
 # YOLO-LRD
- YOLO-LRD: Revisiting Multi-Scale and Attention Fusion for Lightweight Road Damage Detection
+This is the official code implementation of YOLO-RD for the *Measurement* journal paper: **"YOLO-RD: Road Defect Detection with Context-Aware Attention and Balanced Loss"**
