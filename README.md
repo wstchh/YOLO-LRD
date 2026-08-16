@@ -2,10 +2,10 @@
 This is the official code implementation of YOLO-LRD for the *Engineering Applications of Artificial Intelligences* journal paper: **" Revisiting Multi-Scale Feature and Attention Fusion for Lightweight Road Damage Detection in Street-View Images"**
 
 
-## 1-CSFP module
+## 1-PMSF module
 ```python
 
-class CSFPBlock(nn.Module):
+class PMSFBlock(nn.Module):
     def __init__(self, c1, cm, c2, k=3, n=5, lightconv=False, shortcut=True, act=nn.ReLU()):
      super().__init__()
      block = LightConv if lightconv else DSConv
@@ -22,13 +22,13 @@ class CSFPBlock(nn.Module):
      return y + x if self.add else y
 
 
-class C2fCSFP(nn.Module):
+class C2fPMSF(nn.Module):
     def __init__(self, c1, c2, n=1, e=0.5):
         super().__init__()
         self.c = int(c2 * e)  
         self.cv1 = Conv(c1, 2*self.c, 1, 1)
         self.cv2 = Conv((2+n) * self.c, c2, 1)  
-        self.m = nn.Sequential(*(CSFPBlock(self.c, self.c, self.c) for _ in range(n)))
+        self.m = nn.Sequential(*(PMSFBlock(self.c, self.c, self.c) for _ in range(n)))
 
     def forward(self, x):
         y = list(self.cv1(x).chunk(2, 1))
