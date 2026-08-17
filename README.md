@@ -11,6 +11,15 @@ Network structure of YOLO-LRD
 
 
 ## 1-PMSF module
+
+<div align="center">
+    <img src="Fig.2-C2fPMSF module.png" width="600">
+</div>
+
+<div align="center">​ 
+The structure of C2fPMSF module
+</div>	
+
 ```python
 
 class PMSFBlock(nn.Module):
@@ -50,6 +59,15 @@ class C2fPMSF(nn.Module):
 ```
 
 ## 2-RSAHA mechanism
+<div align="center">
+    <img src="Fig.3-RSAHA mechanism.png" width="600">
+</div>
+
+<div align="center">​ 
+TThe structure of RSAHA mechanism
+</div>	
+
+
 ```python
 import torch
 from torch import nn
