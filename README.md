@@ -2,7 +2,7 @@
 This is the official code implementation of YOLO-LRD for the *Engineering Applications of Artificial Intelligences* journal paper: **" Revisiting Multi-Scale Feature and Attention Fusion for Lightweight Road Damage Detection in Street-View Images"**
 
 <div align="center">
-    <img src="Fig.1-YOLO-LRD.png" width="600">
+    <img src="https://github.com/wstchh/YOLO-LRD/tree/main/Fig.1-YOLO-LRD.png" width="600">
 </div>
 
 <div align="center">​ 
