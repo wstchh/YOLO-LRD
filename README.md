@@ -1,6 +1,14 @@
 # YOLO-LRD
 This is the official code implementation of YOLO-LRD for the *Engineering Applications of Artificial Intelligences* journal paper: **" Revisiting Multi-Scale Feature and Attention Fusion for Lightweight Road Damage Detection in Street-View Images"**
 
+<div align="center">
+    <img src="Fig. 1-Network structure of MS-RDDNet.png" width="600">
+</div>
+
+<div align="center">​ 
+Network structure of MS-RDDNet
+</div>	
+
 
 ## 1-PMSF module
 ```python
