@@ -146,6 +146,16 @@ if __name__ == '__main__':
 ```
 
 ## 3-MSFAAF module 
+<div align="center">
+    <img src="Fig.4-MSFAAF module.png" width="600">
+</div>
+
+<div align="center">​ 
+The structure of MSFAAF module
+</div>	
+
+
+
 ```python
 import torch
 import torch.nn as nn
