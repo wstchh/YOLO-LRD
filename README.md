@@ -1,24 +1,10 @@
 # YOLO-LRD
 This is the official code implementation of YOLO-LRD for the *Engineering Applications of Artificial Intelligences* journal paper: **" Revisiting Multi-Scale Feature and Attention Fusion for Lightweight Road Damage Detection in Street-View Images"**
 
-<div align="center">
-    <img src="Fig1-YOLO-LRD.jpg" width="600">
-</div>
-
-<div align="center">​ 
-Network structure of YOLO-LRD
-</div>	
 
 
 ## 1-PMSF module
 
-<div align="center">
-    <img src="Fig2-C2fPMSF-module.png" width="600">
-</div>
-
-<div align="center">​ 
-The structure of C2fPMSF module
-</div>	
 
 ```python
 
@@ -59,13 +45,7 @@ class C2fPMSF(nn.Module):
 ```
 
 ## 2-RSAHA mechanism
-<div align="center">
-    <img src="Fig3-RSAHA-mechanism.png" width="600">
-</div>
 
-<div align="center">​ 
-TThe structure of RSAHA mechanism
-</div>	
 
 
 ```python
@@ -146,13 +126,6 @@ if __name__ == '__main__':
 ```
 
 ## 3-MSFAAF module 
-<div align="center">
-    <img src="Fig4-MSFAAF-module.png" width="600">
-</div>
-
-<div align="center">​ 
-The structure of MSFAAF module
-</div>	
 
 
 
