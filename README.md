@@ -1,5 +1,5 @@
 # YOLO-LRD
-This is the official code implementation of YOLO-LRD for the *Expert Systems with Application* journal paper: **" Revisiting Multi-Scale Feature and Attention Fusion for Lightweight Road Damage Detection in Street-View Images"**
+This is the official code implementation of YOLO-LRD for the *Neurocomputing* journal paper: **" Revisiting Multi-Scale Feature and Attention Fusion for Lightweight Road Damage Detection in Street-View Images"**
 
 
 
