@@ -62,7 +62,7 @@ class C2fPMSF(nn.Module):
 ## 2-RSAHA mechanism
 
 <div align="center">
-    <img src="Fig3-RSAHA.png" width="500">
+    <img src="Fig3-RSAHA.png" width="750">
 </div>
 
 <div align="center">​ 
@@ -150,7 +150,7 @@ if __name__ == '__main__':
 ## 3-MSFAAF module 
 
 <div align="center">
-    <img src="Fig4-MSFAAF.png" width="500">
+    <img src="Fig4-MSFAAF.png" width="750">
 </div>
 
 <div align="center">​ 
