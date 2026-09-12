@@ -150,7 +150,7 @@ if __name__ == '__main__':
 ## 3-MSFAAF module 
 
 <div align="center">
-    <img src="Fig4-MSFAAF.png" width="750">
+    <img src="Fig4-MSFAAF.png" width="850">
 </div>
 
 <div align="center">​ 
