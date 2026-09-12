@@ -12,6 +12,14 @@ Network structure of YOLO-LRD
 
 ## 1-PMSF module
 
+<div align="center">
+    <img src="Fig2-C2fPMSF.png" width="500">
+</div>
+
+<div align="center">​ 
+The structure of C2fPMSF module
+</div>	
+
 
 ```python
 
@@ -53,6 +61,13 @@ class C2fPMSF(nn.Module):
 
 ## 2-RSAHA mechanism
 
+<div align="center">
+    <img src="Fig3-RSAHA.png" width="500">
+</div>
+
+<div align="center">​ 
+The structure of RSAHA mechanism
+</div>	
 
 
 ```python
@@ -134,6 +149,13 @@ if __name__ == '__main__':
 
 ## 3-MSFAAF module 
 
+<div align="center">
+    <img src="Fig4-MSFAAF.png" width="500">
+</div>
+
+<div align="center">​ 
+The structure of MSFAAF module
+</div>	
 
 
 ```python
